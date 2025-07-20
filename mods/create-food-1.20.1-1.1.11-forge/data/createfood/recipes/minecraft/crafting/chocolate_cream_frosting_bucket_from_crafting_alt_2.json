@@ -1,0 +1,18 @@
+{
+    "conditions": [],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:cream_frosting_bucket"
+        },
+        {
+            "tag": "forge:cocoa_powder"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:chocolate_cream_frosting_bucket"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:cooked_eggplant"
+            }
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "amount": 1000,
+            "fluidTag": "forge:heavy_cream"
+        },
+        {
+            "tag": "forge:sugar"
+        },
+        {
+            "tag": "forge:sugar"
+        },
+        {
+            "tag": "forge:frosting_ingredients"
+        },
+        {
+            "tag": "forge:frosting_ingredients"
+        },
+        {
+            "tag": "forge:vegetables/ube"
+        }
+    ],
+    "results": [
+        {
+            "amount": 1000,
+            "fluid": "createfood:ube_cream_frosting"
+        }
+    ]
+}

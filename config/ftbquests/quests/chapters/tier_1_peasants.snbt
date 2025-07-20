@@ -1,0 +1,31 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1_peasants"
+	group: ""
+	icon: "minecraft:bread"
+	id: "14B4C22A87DD2B03"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["18F82432598BFED0"]
+		id: "188F5704688C12F8"
+		subtitle: "Farmers require a Composter."
+		tasks: [{
+			icon: {
+				Count: 1
+				id: "vinery:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "54D20CBC2D3D50D1"
+			title: "Hire a Farmer and Say Hi"
+			type: "custom"
+		}]
+		title: "Hire a Farmer"
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "&eTier 1: Peasants"
+}

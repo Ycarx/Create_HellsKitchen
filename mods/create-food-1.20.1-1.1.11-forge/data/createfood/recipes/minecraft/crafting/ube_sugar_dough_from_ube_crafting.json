@@ -1,0 +1,27 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:vegetables/ube"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "tag": "forge:sugar"
+        },
+        {
+            "tag": "forge:vegetables/ube"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "createfood:ube_sugar_dough"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:apple",
+      "required": false
+    },
+    {
+      "id": "#forge:melon",
+      "required": false
+    },
+    {
+      "id": "#forge:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:sweet_berries",
+      "required": false
+    }
+  ]
+}

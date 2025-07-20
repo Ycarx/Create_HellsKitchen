@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:cheeseburger_bacon",
+      "required": false
+    },
+    {
+      "id": "gourmet:bacon_burger",
+      "required": false
+    }
+  ]
+}

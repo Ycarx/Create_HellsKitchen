@@ -1,0 +1,30 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:corn"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:buckets/water"
+        },
+        {
+            "tag": "forge:corn"
+        },
+        {
+            "tag": "forge:corn"
+        },
+        {
+            "tag": "forge:corn"
+        }
+    ],
+    "result": {
+        "count": 3,
+        "item": "culturaldelights:corn_dough"
+    }
+}

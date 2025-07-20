@@ -1,0 +1,17 @@
+{
+	id: "c60e01aa-c831-47e1-abca-11b82fda8d23"
+	type: "player"
+	player_name: "Ycar_"
+	ranks: {
+		c60e01aa-c831-47e1-abca-11b82fda8d23: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Ycar_"
+		"ftbteams:description": ""
+		"ftbteams:color": "#BCFF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vintagedelight:nut_mash_bottle",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:peanut_butter",
+      "required": false
+    },
+    {
+      "id": "delightful:nut_butter_bottle",
+      "required": false
+    },
+    {
+      "id": "croptopia:peanut_butter",
+      "required": false
+    }
+  ]
+}

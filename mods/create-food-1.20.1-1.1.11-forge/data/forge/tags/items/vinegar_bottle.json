@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:vinegar_bottle",
+      "required": false
+    },
+    {
+      "id": "dumplings_delight:vinegar",
+      "required": false
+    },
+    {
+      "id": "vintagedelight:vinegar_bottle",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jmc"
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "tag": "forge:frosted_cake"
+        },
+        {
+            "item": "minecraft:carrot"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:carrot_cake"
+        }
+    ]
+}

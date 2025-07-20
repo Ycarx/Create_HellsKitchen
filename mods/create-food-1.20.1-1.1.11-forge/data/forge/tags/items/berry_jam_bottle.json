@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "bakery:sweetberry_jam",
+      "required": false
+    },
+    {
+      "id": "vintagedelight:sweet_berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "createfood:berry_jam_bottle",
+      "required": false
+    },
+    {
+      "id": "expandeddelight:sweet_berry_jelly",
+      "required": false
+    }
+  ]
+}

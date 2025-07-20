@@ -1,0 +1,22 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jmc"
+        }
+    ],
+    "type": "create:item_application",
+    "ingredients": [
+        {
+            "item": "minecraft:cake"
+        },
+        {
+            "item": "minecraft:tnt"
+        }
+    ],
+    "results": [
+        {
+            "item": "jmc:tnt_cake"
+        }
+    ]
+}

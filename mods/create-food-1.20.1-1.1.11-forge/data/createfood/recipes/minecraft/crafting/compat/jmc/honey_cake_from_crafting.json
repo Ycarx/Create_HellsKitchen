@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jmc"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:frosted_cake"
+        },
+        {
+            "item": "minecraft:honey_bottle"
+        }
+    ],
+    "result": {
+        "item": "jmc:honey_cake"
+    }
+}

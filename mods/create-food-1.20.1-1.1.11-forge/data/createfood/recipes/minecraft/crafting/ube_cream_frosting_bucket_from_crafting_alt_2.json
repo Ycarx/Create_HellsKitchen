@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "ubesdelight"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:cream_frosting_bucket"
+        },
+        {
+            "item": "ubesdelight:ube"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:ube_cream_frosting_bucket"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "amount": 333,
+            "fluidTag": "forge:caramel"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:caramel_glazed_berries"
+        }
+    ]
+}

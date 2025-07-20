@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "anecdotic_contractor"
+	group: "0A7FAB1CC3C49CDF"
+	icon: "numismatics:bevel"
+	id: "649E7DF161A0A07D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&bFireable Contractor"
+}

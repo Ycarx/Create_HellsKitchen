@@ -1,0 +1,17 @@
+{
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "forge:cloth_filter"
+        },
+        {
+            "amount": 1000,
+            "fluidTag": "forge:cacao_mass"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:cloth_filter_cacao_mass"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jmc"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:frosted_cake"
+        },
+        {
+            "item": "minecraft:lava_bucket"
+        }
+    ],
+    "result": {
+        "item": "jmc:lava_cake"
+    }
+}

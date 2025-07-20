@@ -1,0 +1,27 @@
+{
+    "conditions": [],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "tag": "forge:sugar"
+        },
+        {
+            "tag": "forge:flour"
+        },
+        {
+            "tag": "forge:eggs"
+        },
+        {
+            "tag": "forge:butter"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:waffle_batter_bucket"
+    }
+}

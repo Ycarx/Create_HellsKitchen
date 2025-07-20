@@ -1,0 +1,24 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "culturaldelights"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "1 ",
+        "2 "
+    ],
+    "key": {
+        "1": {
+            "tag": "forge:bun"
+        },
+        "2": {
+            "tag": "forge:eggplant_bun_lettuce_tomato"
+        }
+    },
+    "result": {
+        "item": "culturaldelights:eggplant_burger"
+    }
+}

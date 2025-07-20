@@ -1,0 +1,78 @@
+[15:19:24] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[15:19:24] [INIT] Loaded plugins:
+[15:19:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[15:19:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[15:19:24] [INIT] - dev.wolfieboy09.tfmgjs.TFMGJSPlugin
+[15:19:24] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[15:19:24] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[15:19:24] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[15:19:24] [INIT] - pie.ilikepiefoo.kubejsoffline.OfflinePlugin
+[15:19:24] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[15:19:24] [INIT] - com.almostreliable.morejs.Plugin
+[15:19:24] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[15:19:24] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[15:19:24] [INIT] - com.oierbravo.createmechanicalextruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[15:19:24] [INIT] - dev.bluephs.vintage.compat.kubejs.VINTAGEKubeJSPlugin
+[15:19:24] [INIT] - net.sixik.sdmshoprework.common.integration.KubeJS.ShopJSPlugin
+[15:19:24] [INIT] - com.probejs.ProbeJSPlugin
+[15:19:24] [INFO] Loaded script server_scripts:src/recipe_replacer.js in 0.001 s
+[15:19:24] [INFO] Loaded script server_scripts:src/recipe_remover.js in 0.0 s
+[15:19:24] [INFO] Loaded script server_scripts:src/currency.js in 0.001 s
+[15:19:24] [INFO] Loaded script server_scripts:src/dictionary.js in 0.0 s
+[15:19:24] [INFO] Loaded script server_scripts:src/villager_recipes/Alchemist/alchemist_recipes.js in 0.0 s
+[15:19:24] [INFO] Loaded script server_scripts:src/villager_trades.js in 0.002 s
+[15:19:24] [INFO] src/example.js#5: Hello, World! (Loaded server scripts)
+[15:19:24] [INFO] Loaded script server_scripts:src/example.js in 0.001 s
+[15:19:24] [INFO] Loaded script server_scripts:src/rotaria_food_recipes.js in 0.0 s
+[15:19:24] [INFO] Loaded script server_scripts:src/ftbquests/hire_quests.js in 0.0 s
+[15:19:24] [INFO] Loaded script server_scripts:src/recipes.js in 0.001 s
+[15:19:24] [INFO] Loaded script server_scripts:src/storyline.js in 0.0 s
+[15:19:24] [INFO] Loaded 11/11 KubeJS server scripts in 0.024 s with 0 errors and 0 warnings
+[15:19:24] [INFO] Scripts loaded
+[15:19:24] [INFO] Initializing recipe event...
+[15:19:24] [INFO] [minecraft:item] Found 4434 tags, added 2625 objects, removed 1 objects
+[15:19:25] [INFO] Processing recipes...
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/neon[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/neon[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_egg_crafting_alt[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_egg_crafting[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:sequenced_assembly/potentiometer[create:sequenced_assembly]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe 'pamhc2foodcore:melonpieitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/plastic_from_ethylene[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/plastic_from_ethylene[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:sequenced_assembly/generator[create:sequenced_assembly]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe 'createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_water_crafting_alt[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/rubber[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/rubber[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:sequenced_assembly/motor[create:sequenced_assembly]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe 'meadow:limestone_bricks_stairs[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/etched_circuit_board[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/etched_circuit_board[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/plastic_from_propylene[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/plastic_from_propylene[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'pamhc2foodcore:honeymuffinitem[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:polarizing/magnet[tfmg:polarizing]'! Falling back to vanilla: Recipe component key 'energy' not found! Valid keys: [energy:int, results:output_item[], ingredients:input_item[]]
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/aluminum[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/aluminum[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/concrete[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/concrete[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:winding/resistor[tfmg:winding]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:winding/resistor[tfmg:winding]: null
+[15:19:25] [WARN] Failed to parse recipe 'pamhc2foodcore:caramelcupcakeitem_x4[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:hot_blast/hot_air[tfmg:hot_blast]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:hot_blast/hot_air[tfmg:hot_blast]: null
+[15:19:25] [WARN] Failed to parse recipe 'createfood:minecraft/crafting/compat/culturaldelights/corn_dough_from_water_crafting[minecraft:crafting_shapeless]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/arc_furnace_steel[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/arc_furnace_steel[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/naphtha[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/naphtha[tfmg:vat_machine_recipe]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:winding/electromagnetic_coil[tfmg:winding]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:winding/electromagnetic_coil[tfmg:winding]: null
+[15:19:25] [WARN] Failed to parse recipe 'tfmg:vat_machine_recipe/sulfuric_acid[tfmg:vat_machine_recipe]'! Falling back to vanilla: Cannot invoke "dev.latvian.mods.kubejs.recipe.schema.RecipeSchema.deserialize(dev.latvian.mods.kubejs.recipe.RecipeTypeFunction, net.minecraft.resources.ResourceLocation, com.google.gson.JsonObject)" because "type.schemaType.schema" is null
+[15:19:25] [WARN] Failed to parse recipe tfmg:vat_machine_recipe/sulfuric_acid[tfmg:vat_machine_recipe]: null
+[15:19:25] [INFO] Found 13986 recipes in 78.37 ms
+[15:19:25] [INFO] Posted recipe events in 28.32 ms
+[15:19:25] [WARN] Error parsing recipe createcasing:crafting/chain_drive/creative_from_zinc[minecraft:crafting_shapeless]: {"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"create:creative_casing"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"},{"tag":"forge:nuggets/zinc"}],"result":{"item":"createcasing:creative_encased_chain_drive"}}: Unknown item 'create:creative_casing'
+[15:19:25] [WARN] Error parsing recipe create:kjs/1lqx5by9ujzpco3l6vqany7me[create:compacting]: {"type":"create:compacting","results":[{"fluid":"kubejs:lemon_juice","amount":100}],"ingredients":[{"fluid":"minecraft:empty","nbt":{},"amount":0}]}: Invalid empty fluid 'minecraft:empty'
+[15:19:25] [INFO] Added 32 recipes, removed 2682 recipes, modified 3 recipes, with 2 failed recipes in 65.39 ms
+[15:19:25] [INFO] Server resource reload complete!

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:cream_cheese_bucket"
+        },
+        {
+            "tag": "forge:sour_cream_bottle"
+        },
+        {
+            "tag": "forge:sugar"
+        },
+        {
+            "tag": "forge:salt"
+        },
+        {
+            "tag": "forge:eggs"
+        },
+        {
+            "tag": "forge:eggs"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:cheesecake_filling_bucket"
+    }
+}

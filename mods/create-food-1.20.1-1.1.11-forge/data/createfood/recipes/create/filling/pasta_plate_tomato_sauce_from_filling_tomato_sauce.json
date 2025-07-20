@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create_central_kitchen"
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "forge:pasta_plate"
+        },
+        {
+            "amount": 250,
+            "fluidTag": "forge:tomato_sauce"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_tomato_sauce"
+        }
+    ]
+}

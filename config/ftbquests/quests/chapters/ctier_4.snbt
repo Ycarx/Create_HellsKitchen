@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ctier_4"
+	group: ""
+	icon: "ends_delight:dragon_leg_with_sauce"
+	id: "4E50F3C007480FA0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&cTier 4: Scholars"
+}

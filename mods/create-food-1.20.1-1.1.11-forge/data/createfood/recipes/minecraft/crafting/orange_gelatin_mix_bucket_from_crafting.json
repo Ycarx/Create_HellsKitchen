@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:gelatin_mix_bucket"
+        },
+        {
+            "tag": "forge:orange_dyes"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:orange_gelatin_mix_bucket"
+    }
+}

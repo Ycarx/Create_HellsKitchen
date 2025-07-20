@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "createfood:caramel_bucket",
+      "required": false
+    },
+    {
+      "id": "create_dd:caramel_bucket",
+      "required": false
+    },
+    {
+      "id": "create_confectionery:caramel_bucket",
+      "required": false
+    }
+  ]
+}

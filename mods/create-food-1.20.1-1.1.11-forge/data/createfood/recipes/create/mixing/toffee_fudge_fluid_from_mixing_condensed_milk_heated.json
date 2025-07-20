@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "forge:toffee_chips"
+        },
+        {
+            "tag": "forge:butter"
+        },
+        {
+            "amount": 250,
+            "fluidTag": "forge:condensed_milk"
+        }
+    ],
+    "results": [
+        {
+            "amount": 500,
+            "fluid": "createfood:toffee_fudge"
+        }
+    ]
+}

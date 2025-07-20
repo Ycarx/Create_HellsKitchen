@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create_central_kitchen"
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "forge:pasta_plate_rabbit_meatballs"
+        },
+        {
+            "amount": 250,
+            "fluidTag": "forge:tomato_sauce"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:pasta_plate_rabbit_meatballs_tomato_sauce"
+        }
+    ]
+}

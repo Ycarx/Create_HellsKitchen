@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:gelatin_mix_bucket"
+        },
+        {
+            "tag": "forge:gray_dyes"
+        },
+        {
+            "item": "minecraft:bucket"
+        }
+    ],
+    "result": {
+        "item": "createfood:gray_gelatin_mix_bucket"
+    }
+}

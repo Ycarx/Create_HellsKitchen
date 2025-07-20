@@ -1,0 +1,20 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "jmc"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cake"
+        },
+        {
+            "item": "minecraft:spider_eye"
+        }
+    ],
+    "result": {
+        "item": "jmc:poison_cake"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "c60e01aac83147e1abca11b82fda8d23"
+	name: "Ycar_#c60e01aa"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

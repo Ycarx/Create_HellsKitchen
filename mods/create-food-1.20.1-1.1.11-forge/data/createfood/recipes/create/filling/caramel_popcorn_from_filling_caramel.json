@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:popcorn"
+            }
+        }
+    ],
+    "type": "create:filling",
+    "ingredients": [
+        {
+            "tag": "forge:popcorn"
+        },
+        {
+            "amount": 125,
+            "fluidTag": "forge:caramel"
+        }
+    ],
+    "results": [
+        {
+            "item": "createfood:caramel_popcorn"
+        }
+    ]
+}
