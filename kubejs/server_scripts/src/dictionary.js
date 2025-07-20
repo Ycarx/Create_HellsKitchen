@@ -9,6 +9,8 @@ ServerEvents.tags('item', event => {
     event.remove('forge:crops/cabbage','farmersdelight:cabbage_leaf');
     event.add('forge:seeds/tomato','candlelight:tomato_seeds')
     event.add('vintage:curving_heads','create:shaft',);
+    event.add('forge:seeds/oat','bakery:oat_seeds')
+    event.add('forge:barley_seeds', 'brewery:barley_seeds')
     //event.add('forge:green_tea_leaf','delightful:green_tea_leaf');
     //event.add('forge:green_tea_leaf','herbalbrews:green_tea_leaf');
 })

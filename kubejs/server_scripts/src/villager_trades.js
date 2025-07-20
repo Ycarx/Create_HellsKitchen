@@ -40,18 +40,17 @@ FTBQuestsEvents.customTask('54D20CBC2D3D50D1', event => {
 /* Professions ID list :
         - minecraft:cartographer — minecraft:cartography_table
         - minecraft:farmer — minecraft:composter
-        - minecraft:fisherman
-        - minecraft:mason
-        - minecraft:wandering_trader
-        - minecraft:armorer
-        - minecraft:butcher
-        - minecraft:cleric
-        - minecraft:fletcher
-        - minecraft:leatherworker
-        - minecraft:librarian
-        - minecraft:shepherd
-        - minecraft:toolsmith
-        - minecraft:weaponsmith
+        - minecraft:fisherman — minecraft:barrel
+        - minecraft:mason — ùinecraft:stone_cutter
+        - minecraft:armorer — minecraft:blast_furnace
+        - minecraft:butcher — minecraft:smoker  
+        - minecraft:cleric — minecraft:brewing_stand
+        - minecraft:fletcher — minecraft:fletching_table
+        - minecraft:leatherworker — minecraft:cauldron
+        - minecraft:librarian — minecraft:lectern
+        - minecraft:shepherd — minecraft:loom
+        - minecraft:toolsmith — minecraft:smithing_table
+        - minecraft:weaponsmith — minecraft:grindstone
         - etched:bard — minecraft:note_block
         - vinery:winemaker — vinery:fermentation_barrel
         - meadow:hermit — meadow:woodcutter
@@ -96,8 +95,8 @@ MoreJSEvents.villagerTrades((event) => {
     // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/cabbage',8),TradeItem.of('numismatics:spur'));
     // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/tomato',8),TradeItem.of('numismatics:spur'));
     //-------------------
-    trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_potato',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_carrot',8),TradeItem.of('numismatics:spur'));
+    trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_potato',8),TradeItem.of(Item.of('minecraft:potion','{Potion:"minecraft:strength"}')));
+    trade('minecraft:farmer',2,TradeItem.of(Item.of('minecraft:potion','{Potion:"minecraft:strength"}')),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_beetroot',8),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_beetroot',8),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_carrot',8),TradeItem.of('numismatics:spur'));

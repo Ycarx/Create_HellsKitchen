@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
     event.remove({id:'createfood:farmersdelight/cooking/gelatin_from_cooking'});
     event.remove({id:'meadow:can'});
     event.remove({id:'createfood:create/compacting/sugar_cane_fluid_from_compacting'});
+    event.remove({output:'croptopia:flour'}); 
     // BELOW RECIPES NEED ALTERNATIVE 
     //removing all of Pam's recipes
     event.remove({mod:'pamhc2foodcore'});
