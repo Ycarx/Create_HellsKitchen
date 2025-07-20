@@ -8,7 +8,7 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
-		dependencies: ["18F82432598BFED0"]
+		dependency_requirement: "all_started"
 		id: "188F5704688C12F8"
 		subtitle: "Farmers require a Composter."
 		tasks: [{

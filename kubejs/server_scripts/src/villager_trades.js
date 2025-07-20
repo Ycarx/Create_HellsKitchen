@@ -24,7 +24,7 @@ ItemEvents.entityInteracted(event => {
     pData.putInt("hasForgotten", lv -1)
     
   })
-FTBQuestsEvents.customTask('5C3FF7F395E43A1C', event => {
+FTBQuestsEvents.customTask('54D20CBC2D3D50D1', event => {
     event.maxProgress = 1 // Sets the Progress Count.
     event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
     event.setCheck((task, player)=> {
