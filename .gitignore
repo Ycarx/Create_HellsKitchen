@@ -1,5 +1,5 @@
 .DS_Store
-.mods
+.mods/*
 .probe
 .crash-reports
 .vscode
@@ -11,4 +11,5 @@ Emi.json
 .screenshots
 .shaderpacks
 .simplebackups
-.xaero
+xaero/*
+Mods/*

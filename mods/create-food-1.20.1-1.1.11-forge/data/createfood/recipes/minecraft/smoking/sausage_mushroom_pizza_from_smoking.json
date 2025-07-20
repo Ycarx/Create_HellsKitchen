@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smoking",
-    "ingredient": {
-        "tag": "forge:raw_sausage_mushroom_pizza"
-    },
-    "result": "createfood:sausage_mushroom_pizza",
-    "experience": 0.25,
-    "cookingtime": 400
-}

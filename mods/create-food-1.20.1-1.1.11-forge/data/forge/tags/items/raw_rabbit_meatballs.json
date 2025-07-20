@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "createfood:raw_rabbit_meatballs",
-      "required": false
-    }
-  ]
-}

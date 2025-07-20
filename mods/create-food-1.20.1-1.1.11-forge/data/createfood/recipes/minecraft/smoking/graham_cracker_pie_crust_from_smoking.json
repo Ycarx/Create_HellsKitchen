@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:smoking",
-    "ingredient": {
-        "tag": "forge:raw_graham_cracker_pie_crust"
-    },
-    "result": "createfood:graham_cracker_pie_crust",
-    "experience": 0.25,
-    "cookingtime": 200
-}

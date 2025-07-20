@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {
-      "id": "minecraft:lime_dye",
-      "required": false
-    }
-  ]
-}
