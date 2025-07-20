@@ -1,5 +1,4 @@
 .DS_Store
-.mods/*
 .probe
 .crash-reports
 .vscode
