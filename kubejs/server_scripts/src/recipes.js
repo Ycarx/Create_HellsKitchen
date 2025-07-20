@@ -10,6 +10,9 @@ ServerEvents.recipes(event =>{
     // -- SHAPELESS
     event.shapeless(Item.of('meadow:eriophorum',2),'meadow:eriophorum_tall').id('meadow:eriophorum'); 
 
+    // -- SHAPED
+    event.shaped(Item.of('kubejs:lunchbag', 8),['aaa','a a','aaa'],{a: 'create:cardboard'}).id('kubejs:lunchbag');
+
     // -- CREATE
     event.recipes.create.crushing('kubejs:corn_starch',Item.of('brewery:corn')).id('chk:corn_from_crushing');
     event.recipes.create.mixing(Fluid.of('kubejs:glucose_syrup',125),[Item.of('kubejs:corn_starch',3),Fluid.water(100)]).heated().id('chk:glucose_syrup_from_mixing');
@@ -22,8 +25,13 @@ ServerEvents.recipes(event =>{
     [
         event.recipes.createPressing(inter_can_alu,inter_can_alu),
         event.recipes.vintage.curving(inter_can_alu, inter_can_alu).head('create:shaft')
-    ]).transitionalItem(inter_can_alu).loops(1)
-    
+    ]).transitionalItem(inter_can_alu).loops(1);
+    event.recipes.create.compacting(Item.of('kubejs:lunchbag', 1), Item.of('create:cardboard', 2)).id('kubejs:lunchbag_from_compacting');
+    event.recipes.create.sequenced_assembly(Item.of('kubejs:miners_lunch'), 'kubejs:lunchbag',
+    [
+        event.recipes.createDeploying('kubejs:incomplete_lunchbag',['kubejs:lunchbag', Item.of('create:builders_tea')]),
+        event.recipes.createDeploying('kubejs:incomplete_lunchbag',['kubejs:lunchbag', Item.of('farmersdelight:bacon_sandwich')]),
+    ]).transitionalItem('kubejs:incomplete_lunchbag').loops(1);
 });
 
 // ServerEvents.recipes(event => {
