@@ -4,7 +4,7 @@
 .vscode
 .essential
 Emi.json
-.logs
+logs/*
 .modernfix
 .saves
 .screenshots
@@ -14,5 +14,5 @@ xaero/*
 Mods/*
 Essential/*
 crash-reports/*
-Saves/*
-Simplebackups/*
+saves/*
+simplebackups/*
