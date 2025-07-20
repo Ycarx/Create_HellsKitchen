@@ -13,6 +13,9 @@ StartupEvents.registry("item", (event) => {
     item('Fred Eggs');
     item('Contract');
     item('Signed Contract');
+    item('Lunchbag');
+    item('Incomplete Lunchbag');
+    item('Miners Lunch');
 
     event.create('energy_drink').displayName('Energy Drink').texture('kubejs:item/energy_drink');
 
