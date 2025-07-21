@@ -1,6 +1,5 @@
 StartupEvents.registry("item", (event) => {
-  // --- LISTES DE CONFIGURATION ---
-  const professions = [
+const professions = [
     'minecraft:farmer', 
     'minecraft:fisherman', 
     'minecraft:mason',
@@ -21,8 +20,7 @@ StartupEvents.registry("item", (event) => {
     'brewery:brewmaster',
     'villagersplus:horticulturist',
     'villagersplus:alchemist',
-    'villagersplus:oceanographer', // Doublon retiré, une seule instance ci-dessous
-    //'morevillagers:oceanographer',
+    'villagersplus:oceanographer',
     'villagersplus:occultist',
     'morevillagers:forester',
     'morevillagers:netherologist',
@@ -30,9 +28,8 @@ StartupEvents.registry("item", (event) => {
     'morevillagers:engineer',
     'morevillagers:florist',
     'morevillagers:hunter',
-    'morevillagers:miner',
-    'kubejs:baker'
-  ];
+    'morevillagers:miner'
+  ]
 
   const tiers = {
     'Iron' : 'iron',
@@ -40,7 +37,6 @@ StartupEvents.registry("item", (event) => {
     'Diamond' : 'diamond'
   };
 
-  // --- FONCTION DE CRÉATION D'OBJET ---
   const layeredItem = (id, displayName, textures) => {
     const textureLayers = {};
     textures.forEach((texture, index) => {
@@ -54,23 +50,25 @@ StartupEvents.registry("item", (event) => {
         });
   };
 
-  // --- BOUCLE DE GÉNÉRATION ---
-  professions.forEach((professionId) => {
+  
+  professions.forEach((professionId, professionIndex) => {
+    
     const professionName = professionId.split(':').pop();
-    const professionDisplayName = professionName.charAt(0).toUpperCase() + professionName.slice(1);
     
     for (const [tierDisplayName, tierName] of Object.entries(tiers)) {
-        for (let level = 1; level <= 4; level++) {
-            // ID généré directement en minuscules pour plus de sécurité
-            const itemID = `${tierName}_${professionName}_lunchbag_${level}`;
-            const finalDisplayName = `${tierDisplayName} ${professionDisplayName}'s Lunch Bag (${level})`;
-            const textures = [
+        for (let level = 2; level <= 5; level++) {
+            let itemID = `${tierName}_${professionName}_lunchbag_${level}`;
+            
+            let finalDisplayName = `${tierDisplayName} ${professionName.charAt(0).toUpperCase() + professionName.slice(1)}'s Lunch Bag (Level ${level})`;
+            let textures = [
                 `kubejs:item/lunchbag_base`,
-                `kubejs:item/icons/${professionName}_${tierName}`,
+                `kubejs:item/icons/${professionName}/${tierName}`,
                 `kubejs:item/icons/level_${level}`
             ];
+            
             layeredItem(itemID, finalDisplayName, textures);
         }
     }
   });
+  
 });

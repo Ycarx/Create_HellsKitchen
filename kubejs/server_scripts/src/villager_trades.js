@@ -145,7 +145,6 @@ const professionList = [
     'brewery:brewmaster',
     'villagersplus:horticulturist',
     'villagersplus:alchemist',
-    'morevillagers:oceanographer',
     'villagersplus:oceanographer',
     'villagersplus:occultist',
     'morevillagers:forester',
