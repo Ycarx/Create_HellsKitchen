@@ -39,7 +39,7 @@ config/xaerominimap_entities.json
 config/fabric/indigo-renderer.properties
 config/cubes_without_borders.json
 config/flywheel.json
-config/flywheel-client.json
+config/flywheel-client.toml
 config/fml.toml
 config/embeddium-fingerprint.json
 config/embeddium-options.json

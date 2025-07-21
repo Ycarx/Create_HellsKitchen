@@ -32,6 +32,7 @@ ServerEvents.recipes(event =>{
         event.recipes.createDeploying('kubejs:incomplete_lunchbag',['kubejs:lunchbag', Item.of('create:builders_tea')]),
         event.recipes.createDeploying('kubejs:incomplete_lunchbag',['kubejs:lunchbag', Item.of('farmersdelight:bacon_sandwich')]),
     ]).transitionalItem('kubejs:incomplete_lunchbag').loops(1);
+    event.recipes.create.compacting(Item.of('minecraft:tuff', 1),[Item.of('minecraft:cobblestone', 12), Fluid.of('minecraft:water', 250)]);
 });
 
 // ServerEvents.recipes(event => {
