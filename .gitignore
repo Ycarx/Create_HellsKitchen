@@ -39,3 +39,4 @@ config/packetfixer.properties
 config/xaerominimap_entities.json
 config/fabric/indigo-renderer.properties
 config/cubes_without_borders.json
+config/flywheel.json
