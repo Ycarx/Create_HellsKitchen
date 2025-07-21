@@ -41,5 +41,5 @@ config/cubes_without_borders.json
 config/flywheel.json
 config/flywheel-client.json
 config/fml.toml
-config/embeddiuum-fingerprint.json
-config/embeddiuum-options.json
+config/embeddium-fingerprint.json
+config/embeddium-options.json
