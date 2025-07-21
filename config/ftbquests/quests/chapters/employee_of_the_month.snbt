@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "employee_of_the_month"
+	group: "0A7FAB1CC3C49CDF"
+	icon: "numismatics:sun"
+	id: "6CA973E93C401B65"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "&0Employee of the Month"
+}

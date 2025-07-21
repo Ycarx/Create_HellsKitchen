@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_1_peasants"
+	group: ""
+	icon: "minecraft:bread"
+	id: "14B4C22A87DD2B03"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "all_started"
+			id: "188F5704688C12F8"
+			subtitle: "Farmers require a Composter."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "vinery:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54D20CBC2D3D50D1"
+				title: "Hire a Farmer and Say Hi"
+				type: "custom"
+			}]
+			title: "Hire a Farmer"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1331B73BCADCE4F2"
+			tasks: [{
+				id: "0AE9D3EA139542F2"
+				title: "Hire a Fisherman"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:poppy"
+			id: "1D28BC1B31549450"
+			tasks: [{
+				id: "483BCC5CA4572980"
+				title: "Hire a Florist"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7A2E8B872A80243D"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:stone_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4A4CDFCFCBB6329B"
+				title: "Hire a Forester"
+				type: "custom"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "002F0D721F8D501C"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "522F14DFD214F438"
+				title: "Hire a Hunter"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "379AC76E93E23779"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "24A01586F2D66138"
+				title: "Hire a Shepherd"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "&eTier 1: Peasants"
+}

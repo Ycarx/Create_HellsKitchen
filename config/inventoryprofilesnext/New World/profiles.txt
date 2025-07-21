@@ -1,0 +1,20 @@
+
+
+
+
+profile Saved activate HOT4
+	HOT1
+		"herbalbrews:dried_green_tea"
+	HOT2
+		"minecraft:villager_spawn_egg"
+	HOT5
+		"minecraft:grass_block"
+	HOT6
+		"minecraft:chest"
+	HOT7
+		"morevillagers:gardening_table"
+	HOT8
+		"minecraft:white_bed"
+	HOT9
+		"minecraft:redstone_block"
+
