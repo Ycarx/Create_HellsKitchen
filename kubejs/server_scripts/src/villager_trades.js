@@ -95,8 +95,7 @@ MoreJSEvents.villagerTrades((event) => {
     // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/cabbage',8),TradeItem.of('numismatics:spur'));
     // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/tomato',8),TradeItem.of('numismatics:spur'));
     //-------------------
-    trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_potato',8),TradeItem.of(Item.of('minecraft:potion','{Potion:"minecraft:strength"}')));
-    trade('minecraft:farmer',2,TradeItem.of(Item.of('minecraft:potion','{Potion:"minecraft:strength"}')),TradeItem.of('numismatics:spur'));
+   
     trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_beetroot',8),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_beetroot',8),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_carrot',8),TradeItem.of('numismatics:spur'));

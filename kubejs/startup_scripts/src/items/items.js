@@ -14,7 +14,6 @@ StartupEvents.registry("item", (event) => {
     item('Signed Contract');
     item('Lunchbag');
     item('Incomplete Lunchbag');
-    item('Miners Lunch');
     
     event.create('energy_drink').displayName('Energy Drink').texture('kubejs:item/energy_drink');
     event.create('fred_eggs').displayName('Fred Eggs').texture('kubejs:item/fredeggs');
@@ -32,24 +31,6 @@ StartupEvents.registry("item", (event) => {
     seal('Shepherd');
     seal('Florist');
     seal('Forester');
-
-    // const layeredItem = (displayName,textures)=>{
-    //     const id = displayName.replace(/ /g, '_').toLowerCase();
-    //     const textureLayers = {};
-    //     textures.forEach(texture, index => {
-    //         textureLayers[`layer${index}`] = texture;
-    //     });
-    //     event.create(id)
-    //         .displayName(displayName)
-    //         .modelJson({
-    //             "parent": "item/generated",
-    //             "textures": textureLayers
-    //         })
-    // }
-    // layeredItem('Miner Lunchbag',[
-    //     'kubejs:item/miners_lunch',
-    //     'kubejs:item/icons/miner_iron'
-    // ]);
     
 });
 StartupEvents.registry("fluid", (event) => {
