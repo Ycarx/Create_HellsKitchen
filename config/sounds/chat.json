@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@Ycar_"
+		"@Ycar_",
+		"@UOL_Cerberus"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,
