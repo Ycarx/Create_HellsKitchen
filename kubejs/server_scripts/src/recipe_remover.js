@@ -1,3 +1,4 @@
+// priority: 50
 ServerEvents.recipes(event => {
     // RECIPE REMOVER -----------------------
     //removing types

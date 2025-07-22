@@ -10,6 +10,8 @@ create:striated_ores_overworld
 create:zinc_ore
 create_new_age:magnetite
 create_new_age:ore_thorium
+create_winery:red_grape_bush_generation
+create_winery:white_grape_bush_generation
 croptopia:almond_tree
 croptopia:apple_tree
 croptopia:apricot_tree

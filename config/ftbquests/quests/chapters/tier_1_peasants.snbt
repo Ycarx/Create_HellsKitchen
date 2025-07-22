@@ -5,12 +5,35 @@
 	group: ""
 	icon: "minecraft:bread"
 	id: "14B4C22A87DD2B03"
+	images: [
+		{
+			height: 1.0d
+			image: "croptopia:block/pink_tree_flower"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "herbalbrews:item/green_tea_leaf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependency_requirement: "all_started"
 			id: "188F5704688C12F8"
+			rewards: [{
+				id: "2F87F977AB37EA21"
+				item: "miners_delight:copper_pot"
+				type: "item"
+			}]
 			subtitle: "Farmers require a Composter."
 			tasks: [{
 				icon: {
@@ -25,8 +48,8 @@
 				type: "custom"
 			}]
 			title: "Hire a Farmer"
-			x: 0.0d
-			y: -1.0d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -42,8 +65,8 @@
 				title: "Hire a Fisherman"
 				type: "custom"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			icon: "minecraft:poppy"
@@ -53,7 +76,7 @@
 				title: "Hire a Florist"
 				type: "custom"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -70,8 +93,8 @@
 				title: "Hire a Forester"
 				type: "custom"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: 0.4974489795918373d
+			y: 2.20918367346939d
 		}
 		{
 			id: "002F0D721F8D501C"
@@ -87,8 +110,8 @@
 				title: "Hire a Hunter"
 				type: "custom"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			id: "379AC76E93E23779"
@@ -104,8 +127,409 @@
 				title: "Hire a Shepherd"
 				type: "custom"
 			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "27F7079BD075B2DE"
+			tasks: [{
+				id: "0BC7CCA1352DD652"
+				item: "kubejs:diamond_farmer_lunchbag_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27F7079BD075B2DE"]
+			id: "0BB8B788EB09FD66"
+			tasks: [{
+				id: "6261A2B26891BF55"
+				item: "kubejs:diamond_farmer_lunchbag_3"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BB8B788EB09FD66"]
+			id: "02563F19D265AB26"
+			tasks: [{
+				id: "2EF922E2E4B9090A"
+				item: "kubejs:diamond_farmer_lunchbag_4"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["02563F19D265AB26"]
+			id: "609BF6298E7573E0"
+			tasks: [{
+				id: "36F3D72C780C68F9"
+				item: "kubejs:diamond_farmer_lunchbag_5"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D47AF321ED9B4FF"]
+			id: "0212C5824AF8B50E"
+			tasks: [{
+				id: "53F128F40E9BF20F"
+				item: "kubejs:diamond_florist_lunchbag_5"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["174446549EF23964"]
+			id: "3D47AF321ED9B4FF"
+			tasks: [{
+				id: "09FD4950F14A2D3B"
+				item: "kubejs:diamond_florist_lunchbag_4"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74B15167A2BED4A0"]
+			id: "174446549EF23964"
+			tasks: [{
+				id: "5E964C05EBB148B5"
+				item: "kubejs:diamond_florist_lunchbag_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D28BC1B31549450"]
+			id: "74B15167A2BED4A0"
+			tasks: [{
+				id: "7C1B2303E61EFBD6"
+				item: "kubejs:diamond_florist_lunchbag_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["002F0D721F8D501C"]
+			id: "35BBE791E74EA723"
+			tasks: [{
+				id: "28993BCF134814EE"
+				item: "kubejs:diamond_hunter_lunchbag_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35BBE791E74EA723"]
+			id: "733B96B3D9C05A87"
+			tasks: [{
+				id: "28B7E561F681814E"
+				item: "kubejs:diamond_hunter_lunchbag_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["733B96B3D9C05A87"]
+			id: "2B96A1CB6871CD94"
+			tasks: [{
+				id: "21CF7B4557AA4208"
+				item: "kubejs:diamond_hunter_lunchbag_4"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B96A1CB6871CD94"]
+			id: "16280A8A57ACCF13"
+			tasks: [{
+				id: "616B7C0D1CEB07BE"
+				item: "kubejs:diamond_hunter_lunchbag_5"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["379AC76E93E23779"]
+			id: "4F24C27939620243"
+			tasks: [{
+				id: "5B1CDFF18F8A3370"
+				item: "kubejs:diamond_shepherd_lunchbag_2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F24C27939620243"]
+			id: "68D32F68B2D2B2C1"
+			tasks: [{
+				id: "5536C75221390D69"
+				item: "kubejs:diamond_shepherd_lunchbag_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68D32F68B2D2B2C1"]
+			id: "5BD80B612432F690"
+			tasks: [{
+				id: "054FE7F10046CDBA"
+				item: "kubejs:diamond_shepherd_lunchbag_4"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5BD80B612432F690"]
+			id: "503FD45B8F24E5A9"
+			tasks: [{
+				id: "04A89F028895B72B"
+				item: "kubejs:diamond_shepherd_lunchbag_5"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["188F5704688C12F8"]
+			id: "12170421E7606CC6"
+			tasks: [{
+				id: "2C1F6F04EB31227E"
+				item: "kubejs:farmer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1331B73BCADCE4F2"]
+			id: "0DA79A7B1FB47EFD"
+			tasks: [{
+				id: "6970F93676DD8606"
+				item: "kubejs:fisherman"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["002F0D721F8D501C"]
+			id: "0CA1CD900D211A51"
+			tasks: [{
+				id: "311D25D29B9BE927"
+				item: "kubejs:hunter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["379AC76E93E23779"]
+			id: "5E795596D641EB71"
+			tasks: [{
+				id: "1E5D0E1C78483B2B"
+				item: "kubejs:shepherd"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D28BC1B31549450"]
+			id: "22709430FFFC6846"
+			tasks: [{
+				id: "4CCC91D33277EF63"
+				item: "kubejs:florist"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2E8B872A80243D"]
+			id: "6EA7662A81B78DB7"
+			tasks: [{
+				id: "1EE8DE5DCD5F42C3"
+				item: "kubejs:forester"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12170421E7606CC6"
+				"0CA1CD900D211A51"
+				"0DA79A7B1FB47EFD"
+				"22709430FFFC6846"
+				"6EA7662A81B78DB7"
+				"5E795596D641EB71"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "39FDD2BF0727C3D8"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "596703619F2720C4"
+					item: "kubejs:farmer"
+					type: "item"
+				}
+				{
+					id: "6E13FF5AC91D4DBE"
+					item: "kubejs:fisherman"
+					type: "item"
+				}
+				{
+					id: "04AA9727E6CA2940"
+					item: "kubejs:hunter"
+					type: "item"
+				}
+				{
+					id: "1DCBEF63A093CDAE"
+					item: "kubejs:shepherd"
+					type: "item"
+				}
+				{
+					id: "39F7800455DF0F65"
+					item: "kubejs:florist"
+					type: "item"
+				}
+				{
+					id: "394F00AE1A6DBC93"
+					item: "kubejs:forester"
+					type: "item"
+				}
+			]
+			title: "Master of the Peasants"
+			x: 0.497448979591816d
+			y: -0.7704081632653157d
+		}
+		{
+			dependencies: ["1331B73BCADCE4F2"]
+			id: "62FC80FB4112C1B4"
+			tasks: [{
+				id: "1FB453EB4C620BB7"
+				item: "kubejs:diamond_fisherman_lunchbag_2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62FC80FB4112C1B4"]
+			id: "3E599B5819F2811C"
+			tasks: [{
+				id: "6D6FBE695B8B8BA6"
+				item: "kubejs:diamond_fisherman_lunchbag_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E599B5819F2811C"]
+			id: "497640232D502175"
+			tasks: [{
+				id: "3FDCC1B856DDB84B"
+				item: "kubejs:diamond_fisherman_lunchbag_4"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["497640232D502175"]
+			id: "0C096891249F4066"
+			tasks: [{
+				id: "58F9BC93CC4CA4E0"
+				item: "kubejs:diamond_fisherman_lunchbag_5"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A2E8B872A80243D"]
+			id: "007D0AE0A5915337"
+			tasks: [{
+				id: "7810ED9747661708"
+				item: "kubejs:diamond_forester_lunchbag_2"
+				type: "item"
+			}]
 			x: 0.0d
-			y: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["007D0AE0A5915337"]
+			id: "0291F2CF58560502"
+			tasks: [{
+				id: "4602081613CC5D12"
+				item: "kubejs:diamond_forester_lunchbag_3"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0291F2CF58560502"]
+			id: "5AC95F3133180CF2"
+			tasks: [{
+				id: "74CFC22A2C91C47E"
+				item: "kubejs:diamond_forester_lunchbag_4"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AC95F3133180CF2"]
+			id: "046B7013DFFE5084"
+			tasks: [{
+				id: "172FB00ACCF674BF"
+				item: "kubejs:diamond_forester_lunchbag_5"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["188F5704688C12F8"]
+			id: "09B32804B5F74915"
+			rewards: [{
+				id: "2A7586FE2DCA202E"
+				item: "miners_delight:copper_pot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2090DA5607C627B5"
+				item: { Count: 4, id: "brewery:potato_salad" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
 		}
 	]
 	title: "&eTier 1: Peasants"

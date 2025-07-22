@@ -87,21 +87,8 @@ MoreJSEvents.villagerTrades((event) => {
   4 -> 5 = 250
   Farmer Progression ----------*/
     trade('minecraft:farmer',1,TradeItem.of('minecraft:wheat',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('minecraft:potato',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('minecraft:apple',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('minecraft:beetroot',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/onion',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/corn',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/cabbage',8),TradeItem.of('numismatics:spur'));
-    // trade('minecraft:farmer',1,TradeItem.of('#forge:crops/tomato',8),TradeItem.of('numismatics:spur'));
     //-------------------
-   
-    trade('minecraft:farmer',2,TradeItem.of('createfood:shredded_beetroot',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_beetroot',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_carrot',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_potato',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('createfood:sliced_tomato',8),TradeItem.of('numismatics:spur'));
-    trade('minecraft:farmer',2,TradeItem.of('create:dough',8),TradeItem.of('numismatics:spur'));
+    trade('minecraft:farmer',2,TradeItem.of('brewery:potato_salad',1),TradeItem.of('numismatics:spur'));
     //-------------------
     trade('minecraft:farmer',3,TradeItem.of('createfood:bread_lettuce_carrot',8),TradeItem.of('numismatics:spur'));
     trade('minecraft:farmer',3,TradeItem.of('miners_delight:cave_carrot',12),TradeItem.of('numismatics:spur'));

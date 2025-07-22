@@ -7,197 +7,398 @@
 		-1331480584
 		-2029577367
 	]
-	shopTabs: [{
-		tabEntry: [
-			{
-				entryUUID: [I;
-					1696650866
-					1483227942
-					-1980452183
-					-2049095569
-				]
-				entryPrice: 4L
-				entryType: {
-					itemStack: {
-						id: "croptopia:corn_seed"
-						Count: 1b
-					}
-					shopEntryTypeID: "shopItemEntryType"
-				}
-				entryCount: 1
-				isSell: 0b
-				icon: {
-					id: "minecraft:barrier"
-					Count: 1b
-				}
-				entryCondition: [{
-					questID: [ ]
-					entryConditionID: "ftbquestConditions"
-				}]
-				shopSeller: {
-					item: {
-						id: "numismatics:spur"
-						Count: 1b
-					}
-					shopSellerTypeID: "item"
-				}
-			}
-			{
-				entryUUID: [I;
-					1791419984
-					-1973927172
-					-1527560638
-					936113664
-				]
-				entryPrice: 4L
-				entryType: {
-					itemStack: {
-						id: "farmersdelight:tomato_seeds"
-						Count: 1b
-					}
-					shopEntryTypeID: "shopItemEntryType"
-				}
-				entryCount: 1
-				isSell: 0b
-				icon: {
-					id: "minecraft:barrier"
-					Count: 1b
-				}
-				entryCondition: [{
-					questID: [ ]
-					entryConditionID: "ftbquestConditions"
-				}]
-				shopSeller: {
-					item: {
-						id: "numismatics:spur"
-						Count: 1b
-					}
-					shopSellerTypeID: "item"
-				}
-			}
-			{
-				entryUUID: [I;
-					-138909987
-					1949845454
-					-1725241101
-					748209840
-				]
-				entryPrice: 4L
-				entryType: {
-					itemStack: {
-						id: "minecraft:air"
-						Count: 1b
-						tag: {
-							Damage: 0
+	shopTabs: [
+		{
+			tabEntry: [
+				{
+					entryUUID: [I;
+						1696650866
+						1483227942
+						-1980452183
+						-2049095569
+					]
+					entryPrice: 4L
+					entryType: {
+						itemStack: {
+							id: "croptopia:corn_seed"
+							Count: 1b
 						}
+						shopEntryTypeID: "shopItemEntryType"
 					}
-					shopEntryTypeID: "shopItemEntryType"
-				}
-				entryCount: 1
-				isSell: 0b
-				icon: {
-					id: "minecraft:barrier"
-					Count: 1b
-				}
-				entryCondition: [{
-					questID: [ ]
-					entryConditionID: "ftbquestConditions"
-				}]
-				shopSeller: {
-					item: {
-						id: "numismatics:spur"
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
 						Count: 1b
 					}
-					shopSellerTypeID: "item"
-				}
-			}
-			{
-				entryUUID: [I;
-					-570701646
-					1970947480
-					-1075509741
-					-249822886
-				]
-				entryPrice: 4L
-				entryType: {
-					itemStack: {
-						id: "minecraft:air"
-						Count: 1b
-						tag: {
-							Damage: 0
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:spur"
+							Count: 1b
 						}
+						shopSellerTypeID: "item"
 					}
-					shopEntryTypeID: "shopItemEntryType"
 				}
-				entryCount: 1
-				isSell: 0b
-				icon: {
-					id: "minecraft:barrier"
-					Count: 1b
-				}
-				entryCondition: [{
-					questID: [ ]
-					entryConditionID: "ftbquestConditions"
-				}]
-				shopSeller: {
-					item: {
-						id: "numismatics:spur"
-						Count: 1b
-					}
-					shopSellerTypeID: "item"
-				}
-			}
-			{
-				entryUUID: [I;
-					1304594591
-					-543341845
-					-1730656851
-					-694938835
-				]
-				entryPrice: 4L
-				entryType: {
-					itemStack: {
-						id: "minecraft:air"
-						Count: 1b
-						tag: {
-							Damage: 0
+				{
+					entryUUID: [I;
+						1791419984
+						-1973927172
+						-1527560638
+						936113664
+					]
+					entryPrice: 4L
+					entryType: {
+						itemStack: {
+							id: "farmersdelight:tomato_seeds"
+							Count: 1b
 						}
+						shopEntryTypeID: "shopItemEntryType"
 					}
-					shopEntryTypeID: "shopItemEntryType"
-				}
-				entryCount: 1
-				isSell: 0b
-				icon: {
-					id: "minecraft:barrier"
-					Count: 1b
-				}
-				entryCondition: [{
-					questID: [ ]
-					entryConditionID: "ftbquestConditions"
-				}]
-				shopSeller: {
-					item: {
-						id: "numismatics:spur"
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
 						Count: 1b
 					}
-					shopSellerTypeID: "item"
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:spur"
+							Count: 1b
+						}
+						shopSellerTypeID: "item"
+					}
 				}
+				{
+					entryUUID: [I;
+						-138909987
+						1949845454
+						-1725241101
+						748209840
+					]
+					entryPrice: 4L
+					entryType: {
+						itemStack: {
+							id: "minecraft:air"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:spur"
+							Count: 1b
+						}
+						shopSellerTypeID: "item"
+					}
+				}
+				{
+					entryUUID: [I;
+						-570701646
+						1970947480
+						-1075509741
+						-249822886
+					]
+					entryPrice: 4L
+					entryType: {
+						itemStack: {
+							id: "minecraft:air"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:spur"
+							Count: 1b
+						}
+						shopSellerTypeID: "item"
+					}
+				}
+				{
+					entryUUID: [I;
+						1304594591
+						-543341845
+						-1730656851
+						-694938835
+					]
+					entryPrice: 4L
+					entryType: {
+						itemStack: {
+							id: "minecraft:air"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:spur"
+							Count: 1b
+						}
+						shopSellerTypeID: "item"
+					}
+				}
+			]
+			icon: {
+				id: "croptopia:corn"
+				Count: 1b
 			}
-		]
-		icon: {
-			id: "minecraft:wheat_seeds"
-			Count: 1b
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopTabUUID: [I;
+				1649398203
+				36391347
+				-2099010129
+				1710114064
+			]
+			title: "Cropmart"
 		}
-		tabCondition: [{
-			questID: [ ]
-			entryConditionID: "ftbquestConditions"
-		}]
-		shopTabUUID: [I;
-			1649398203
-			36391347
-			-2099010129
-			1710114064
-		]
-		title: "Seeds"
-	}]
+		{
+			tabEntry: [
+				{
+					entryUUID: [I;
+						-1014123439
+						-820951986
+						-1696896619
+						1043115680
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "create:mechanical_mixer"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					limit: 8
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:cog"
+							Count: 1b
+						}
+						showTooltip: 1b
+						shopSellerTypeID: "item"
+					}
+					globalLimit: 0b
+				}
+				{
+					entryUUID: [I;
+						562217130
+						2035761774
+						-1085456494
+						1767155097
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "create:mechanical_press"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					limit: 8
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:cog"
+							Count: 1b
+						}
+						showTooltip: 1b
+						shopSellerTypeID: "item"
+					}
+					globalLimit: 0b
+				}
+				{
+					entryUUID: [I;
+						-64971028
+						-795131287
+						-1605659785
+						101088157
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "create:mechanical_saw"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					limit: 8
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:cog"
+							Count: 1b
+						}
+						showTooltip: 1b
+						shopSellerTypeID: "item"
+					}
+					globalLimit: 0b
+				}
+				{
+					entryUUID: [I;
+						-971413266
+						1947289997
+						-1970771781
+						1460592930
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "create:mechanical_harvester"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					limit: 8
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:cog"
+							Count: 1b
+						}
+						showTooltip: 1b
+						shopSellerTypeID: "item"
+					}
+					globalLimit: 0b
+				}
+				{
+					entryUUID: [I;
+						1334238099
+						-1665577304
+						-1765209893
+						-1398908263
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							id: "create:mechanical_drill"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					limit: 8
+					entryCondition: [{
+						questID: [ ]
+						entryConditionID: "ftbquestConditions"
+					}]
+					shopSeller: {
+						item: {
+							id: "numismatics:cog"
+							Count: 1b
+						}
+						showTooltip: 1b
+						shopSellerTypeID: "item"
+					}
+					globalLimit: 0b
+				}
+			]
+			icon: {
+				id: "create:mechanical_mixer"
+				Count: 1b
+			}
+			tabCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopTabUUID: [I;
+				1266710534
+				-1450098058
+				-2099537574
+				-1517307677
+			]
+			title: "LIMITED SALE 🎁"
+		}
+	]
 }

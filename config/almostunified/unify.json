@@ -36,7 +36,8 @@
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
     "forge:crops/{material}",
-    "forge:seeds/{material}"
+    "forge:seeds/{material}",
+    "forge:{material}"
   ],
   "materials": [
     "aeternium",
@@ -95,7 +96,8 @@
     "cabbage",
     "tomato",
     "oat",
-    "barley"
+    "barley",
+    "salt"
     
 
     
