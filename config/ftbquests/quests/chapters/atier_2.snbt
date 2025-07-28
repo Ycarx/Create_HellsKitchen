@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "atier_2"
-	group: ""
+	group: "74AF70249CFE8ABD"
 	icon: "bakery:sandwich"
 	id: "2973C30FAB2DEAF8"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "&aTier 2: Workers"

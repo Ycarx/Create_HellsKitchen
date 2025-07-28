@@ -19,8 +19,8 @@
   "sdm.shop.entry.buy.info.item" : "You buy %s in %s count. Your balance %s",
 
   "sdm.shop.modern.ui.buyer.player_money" : "Your Cogs",
-  "sdm.shop.modern.ui.buyer.entry.sell" : "Can be sold",
-  "sdm.shop.modern.ui.buyer.entry.buy" : "Can be bought",
+  "sdm.shop.modern.ui.buyer.entry.sell" : "You can sell",
+  "sdm.shop.modern.ui.buyer.entry.buy" : "You can buy",
   "sdm.shop.modern.ui.buyer.entry.limit" : "Stock",
   "sdm.shop.modern.ui.buyer.entry.input.ghost.buy" : "Enter the amount to purchase",
   "sdm.shop.modern.ui.buyer.entry.input.ghost.sell" : "Enter the amount to sell",

@@ -23,8 +23,8 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
+| getEntity |  |  | Entity | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| getEntity |  |  | LivingEntity | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | addGameStage | String |  | void | ✘ |
@@ -33,22 +33,22 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getServer |  |  | MinecraftServer | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
 
+- `Entity getEntity()`
+```
+The player that smelted the item.
+```
+
 - `ItemStack getItem()`
 ```
 The item that was smelted.
-```
-
-- `LivingEntity getEntity()`
-```
-The player that smelted the item.
 ```
 
 - `boolean hasGameStage(String var0)`
@@ -96,24 +96,6 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object exit(Object var0)`
 
   Parameters:
@@ -130,6 +112,24 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `exit` denotes a `default` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
 ```
 
 

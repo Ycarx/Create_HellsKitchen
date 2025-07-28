@@ -33,8 +33,6 @@ const professions = [
 
   const tiers = {
     'Iron' : 'iron',
-    'Golden' : 'gold',
-    'Diamond' : 'diamond'
   };
 
   const layeredItem = (id, displayName, textures) => {
@@ -56,10 +54,10 @@ const professions = [
     const professionName = professionId.split(':').pop();
     
     for (const [tierDisplayName, tierName] of Object.entries(tiers)) {
-        for (let level = 2; level <= 5; level++) {
-            let itemID = `${tierName}_${professionName}_lunchbag_${level}`;
+        for (let level = 3; level <= 5; level++) {
+            let itemID = `${professionName}_lunchbag_${level}`;
             
-            let finalDisplayName = `${tierDisplayName} ${professionName.charAt(0).toUpperCase() + professionName.slice(1)}'s Lunch Bag (Level ${level})`;
+            let finalDisplayName = `${professionName.charAt(0).toUpperCase() + professionName.slice(1)}'s Lunch Bag (Level ${level})`;
             let textures = [
                 `kubejs:item/lunchbag_base`,
                 `kubejs:item/icons/${professionName}/${tierName}`,

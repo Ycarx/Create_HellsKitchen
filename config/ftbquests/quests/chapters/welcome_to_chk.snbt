@@ -14,7 +14,7 @@
 				""
 				"Hi! I'm your Franchised Relation for Entities Director and Efficiency Global General Supervisor. FRED EGGS for short, if you will. "
 				""
-				"You may have suffered a slight concussion upon landing, effectively reducing your life expectancy drastically. As such, I will request that you sign this contract immediately. This will insure that all responsible parties are held accountable."
+				"You may have suffered a slight concussion upon landing, effectively reducing your life expectancy drastically. As such, I will request that you sign this contract immediately. This will ensure that all responsible parties are held accountable."
 			]
 			icon: "kubejs:contract"
 			id: "12917F7EBF5D8918"
@@ -23,7 +23,7 @@
 				item: "kubejs:contract"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Welcome to your own island!"
 			tasks: [{
@@ -45,12 +45,12 @@
 				"You will need to hire Villagers, feed them and help them level up to gain their &b&lSeal of Approval&r."
 				"Go on, hire your first Villager!"
 				""
-				"&4Note: You may keep the contract and cherish it as your &luttermost&r &4precious possession.&r"
+				"&4Note: You may keep the contract and cherish it as your &lutmost&r &4precious possession.&r"
 			]
 			id: "18F82432598BFED0"
 			rewards: [{
-				id: "5818F20972F2C1C3"
-				item: "minecraft:villager_spawn_egg"
+				id: "119A22CF9010D95A"
+				item: "kubejs:villager_capsule"
 				type: "item"
 			}]
 			subtitle: "Message from [Fred Eggs]"
@@ -105,6 +105,11 @@
 			]
 			icon: "numismatics:cog"
 			id: "38F5BE5D2BDB9004"
+			rewards: [{
+				id: "3CF53E2031881F06"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
 			subtitle: "Get paid, pay it back."
 			tasks: [{
 				count: 4L
@@ -131,6 +136,7 @@
 				title: "Contractual Obligations"
 				type: "checkmark"
 			}]
+			title: "Career Path"
 			x: -2.5d
 			y: 1.0d
 		}
@@ -144,7 +150,7 @@
 			]
 			icon: "createcasing:brass_mixer"
 			id: "364B6665BE417076"
-			subtitle: "Aiming for Completion"
+			subtitle: "Contractual Obligations"
 			tasks: [{
 				id: "143F8B2124AE7F8A"
 				title: "Your Definitive Goals"
@@ -175,7 +181,95 @@
 			x: 0.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["14EFC5F3A0624121"]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"Your villagers lack experience in their domain. You shall help them gain knowledge through consumption of food."
+				"Villagers need to perform 250 trades in order to reach mastery in their craft, from whereupon you will gain access to their most succulent trade rewards. Their learning curve is as follows:"
+				"1->2 with &a10&r trades"
+				"2->3 with &e60&r trades (70 total)"
+				"3->4 with &680&r trades (150 total)"
+				"4->5 with &c100&r trades (250 total)"
+				"{image:jei:textures/jei/atlas/gui/icons/arrow_next.png width:20 height:20 align:center}"
+				"{@pagebreak}"
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"You may not interact in person with your Villagers, but instead use &eTrading Depots&r. You may have one — free of charge — as an encouragement to avoid social interaction that would hinder your productivity. Ponder the item for additional information if adequate cognitive abilities lack."
+			]
+			icon: "create:experience_nugget"
+			id: "5764C1E224F8CD06"
+			rewards: [{
+				id: "4DCF61DE6D62721F"
+				item: "trading_floor:trading_depot"
+				type: "item"
+			}]
+			subtitle: "A steady process"
+			tasks: [{
+				id: "2D7035BD9F4A4376"
+				title: "Levelling up Villagers"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14EFC5F3A0624121"]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"As per OSHA rules, The Company is legally bound to encourage you not to sollicit villager labor in inadequate Work Conditions. You may disregard these rules at your own discretion and consideration for Productivity; although be advised that &eFarmers require fields in close, reachable proximity to perform&r. Other villagers only require their workstation and a bed. You may manage living spaces accordingly. "
+				"&8This is not legal advice. The Company may not be held liable for any and all Franchisee malpractice and mistreatment.&r"
+			]
+			icon: "minecraft:red_bed"
+			id: "3B82D1E5B73757E2"
+			subtitle: "Occupational Safety and Health Administration"
+			tasks: [{
+				id: "4FBE1876861CB25D"
+				title: "Villagers Work and Life Conditions"
+				type: "checkmark"
+			}]
+			title: "Villagers Work and Life Conditions"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B82D1E5B73757E2"]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"Life is precious and quintessential to Productivity. Death of Employed Villagers is &cintolerable&r, and as such will result in a direct and precise orbital strike on your person."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "781215F314B8F698"
+			subtitle: "Death not permitted"
+			tasks: [{
+				id: "20AA77E6B6F875E2"
+				title: "Note on Villager Mistreatment"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"Villager Capsules are objects that will call a Hiree upon your position. Your Hirees are capable individuals who opted in to the &3Remote Island Program (RIP)&r. Please refrain from having social interactions in your work environment."
+			]
+			id: "38876CCCC4C62D6A"
+			invisible: true
+			subtitle: "The Hiring Process is irrelevant"
+			tasks: [{
+				id: "26D8E3CAB6402E7E"
+				item: "kubejs:villager_capsule"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
 	subtitle: ["Welcome to Create: Hell's Kitchen!"]
-	title: "Introduction"
+	title: "Company Brief"
 }

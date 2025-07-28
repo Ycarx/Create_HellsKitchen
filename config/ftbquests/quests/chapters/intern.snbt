@@ -6,8 +6,319 @@
 	group: "0A7FAB1CC3C49CDF"
 	icon: "numismatics:spur"
 	id: "155168BCEEC72D36"
+	images: [
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "create:entity/blueprint_small"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 5.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"Welcome to the &6Foodex!&r"
+				"This Chapter is a clear path towards the pinnacle of your career here at The Company."
+				"Your objective here is simple:"
+				"&aShip Food&r, &aGet Paid&r. Ship all the food from a Career Ladder and you may get promoted. How exciting! "
+				""
+				"&4IMPORTANT!: SQUARE SHAPED QUESTS CONSUME ITEMS&r"
+			]
+			icon: "kubejs:fred_eggs"
+			id: "073FFE9352DCB92C"
+			size: 1.2d
+			subtitle: "Your career starts here"
+			tasks: [{
+				id: "2EDDDBEF69584075"
+				item: "brewery:potato_salad"
+				type: "item"
+			}]
+			title: "Contractual Obligations"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"You &aNEED&r a task screen to ship Food to The Company. Here, let's make a deal. Make one, and I'll give you two more. This should help you serve us."
+			]
+			id: "13815EB95503467B"
+			rewards: [{
+				count: 2
+				id: "3CF3BE2BFEAE8FBC"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			subtitle: "And get two more"
+			tasks: [{
+				id: "5475A7AC1FE2F085"
+				item: "ftbquests:screen_1"
+				type: "item"
+			}]
+			title: "Craft a Task Screen"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "4BBBA644E5F9251C"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "632440CF04EDBFB5"
+				item: "croptopia:water_bottle"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.0011961722488038617d
+			y: 2.462014614458198d
+		}
+		{
+			id: "1ED8CFB9D8838271"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "1F64302DCCB3C481"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "384C0AF0E590A05A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "274295D18AB33618"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "1D3C4ADBDD30C33A"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "576DD12A66995322"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "30C031F9BC4B3957"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "2261FEDC0DCCE597"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "396A6BBF44A5FCE1"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "00C62A6ACB41FA43"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "2826950AA9F6CEA4"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "002C93B36F694C67"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "24170F24373D0AA3"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "2A6FD804838E547C"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "7305078449D6B385"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "63C19626F6846F32"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "405CB163D5C6AF48"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "3B70DCBC71F25AF0"
+				item: "brewery:potato_salad"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "10BFAD6009609229"
+			optional: true
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 320L
+				id: "208A48A1BB8364E1"
+				item: "createfood:vegetable_sandwich_lettuce_tomato"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+	]
 	title: "&cWorthless Intern"
 }

@@ -11,6 +11,8 @@ ServerEvents.tags('item', event => {
     event.add('vintage:curving_heads','create:shaft',);
     event.add('forge:seeds/oat','bakery:oat_seeds');
     event.add('forge:barley_seeds', 'brewery:barley_seeds');
+    event.add('forge:dough/wheat',['candlelight:dough','bakery:dough','createfood:salt_dough','pamhc2foodcore:doughitem']);
+    event.add('forge:friedegg',['croptopia:sunny_side_eggs','farmersdelight:fried_egg'])
     //salt
 
     //event.add('forge:green_tea_leaf','delightful:green_tea_leaf');

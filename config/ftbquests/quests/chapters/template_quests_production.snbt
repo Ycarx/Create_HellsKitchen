@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "template_quests_production"
+	group: ""
+	id: "68094F6759930F0F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["{image:kubejs:item/fredeggs width:20 height:20 align:center}"]
+		icon: "kubejs:fred_eggs"
+		id: "16BE53193813FDF2"
+		size: 1.0d
+		title: "fredeggs item quest"
+		x: 2.5d
+		y: -2.5d
+	}]
+	title: "template quests (DELETE ME)"
+}

@@ -2,15 +2,17 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
+    "create",
     "farmersdelight",
+    "createfood",
     "bakery",
     "brewery",
     "croptopia",
     "alexmobs",
     "crafttweaker",
-    "create",
     "thermal",
     "immersiveengineering",
+    "pamhc2foodcore",
     "mekanism"
   ],
   "stoneStrata": [
@@ -97,7 +99,15 @@
     "tomato",
     "oat",
     "barley",
-    "salt"
+    "salt",
+    "cantaloupes",
+    "dough/wheat",
+    "sweet_dough",
+    "flour",
+    "dough",
+    "paprika",
+    "friedegg"
+
     
 
     

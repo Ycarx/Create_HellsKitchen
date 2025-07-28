@@ -33,39 +33,39 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| translate | double, double |  | void | ✘ |
-| text | Component, int, int, int, boolean |  | void | ✘ |
 | scale | float, float |  | void | ✘ |
 | scale | float |  | void | ✘ |
-| rectangle | float, float, float, float, float, int |  | void | ✘ |
-| rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
+| translate | double, double |  | void | ✘ |
+| text | Component, int, int, int, boolean |  | void | ✘ |
 | rawText | FormattedCharSequence, int, int, int, boolean |  | void | ✘ |
+| getVariables |  |  | VariableSet | ✘ |
+| rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
+| rectangle | float, float, float, float, float, int |  | void | ✘ |
 | alignX | float, float, AlignMode |  | float | ✘ |
 | alignY | float, float, AlignMode |  | float | ✘ |
 | rotateDeg | float |  | void | ✘ |
 | rotateRad | float |  | void | ✘ |
-| getVariables |  |  | VariableSet | ✘ |
-| multiply | Quaternionf |  | void | ✘ |
-| push |  |  | void | ✘ |
-| pop |  |  | void | ✘ |
-| translate | double, double, double |  | void | ✘ |
 | blend | boolean |  | void | ✘ |
 | scale | float, float, float |  | void | ✘ |
-| end |  |  | void | ✘ |
+| multiply | Quaternionf |  | void | ✘ |
+| translate | double, double, double |  | void | ✘ |
+| push |  |  | void | ✘ |
+| pop |  |  | void | ✘ |
 | begin | VertexFormat$Mode, VertexFormat |  | void | ✘ |
-| getMatrix |  |  | Matrix4f | ✘ |
+| end |  |  | void | ✘ |
 | setShaderColor | float, float, float, float |  | void | ✘ |
 | setShaderTexture | ResourceLocation |  | void | ✘ |
-| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
 | vertex | Matrix4f, float, float, float, int, float, float |  | void | ✘ |
+| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
 | bindTextureForSetup | ResourceLocation |  | void | ✘ |
+| resetShaderColor |  |  | void | ✘ |
 | multiplyWithMatrix | Matrix4f |  | void | ✘ |
-| beginQuads | boolean |  | void | ✘ |
+| getMatrix |  |  | Matrix4f | ✘ |
 | beginQuads | VertexFormat |  | void | ✘ |
+| beginQuads | boolean |  | void | ✘ |
 | setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
 | setPositionColorShader |  |  | void | ✘ |
 | setPositionColorTextureShader |  |  | void | ✘ |
-| resetShaderColor |  |  | void | ✘ |
 | getEntity |  |  | Player | ✘ |
 | getPlayer |  |  | LocalPlayer | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
@@ -75,10 +75,10 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | getServer |  |  | MinecraftServer | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
-| cancel | Object |  | Object | ✘ |
-| cancel |  |  | Object | ✘ |
 | exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| cancel |  |  | Object | ✘ |
+| cancel | Object |  | Object | ✘ |
 
 
 ### Documented members:
@@ -128,24 +128,6 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `success` denotes a `true` outcome.
 ```
 
-- `Object cancel(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Cancels the event with the given exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
-- `Object cancel()`
-```
-Cancels the event with default exit value. Execution will be stopped **immediately**.
-
-`cancel` denotes a `false` outcome.
-```
-
 - `Object exit(Object var0)`
 
   Parameters:
@@ -162,6 +144,24 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
 `exit` denotes a `default` outcome.
+```
+
+- `Object cancel()`
+```
+Cancels the event with default exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
+```
+
+- `Object cancel(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Cancels the event with the given exit value. Execution will be stopped **immediately**.
+
+`cancel` denotes a `false` outcome.
 ```
 
 

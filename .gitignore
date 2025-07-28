@@ -52,3 +52,4 @@ config/jei/recipe-category-sort-order.ini
 config/flywheel-client.toml
 config/embeddium-options.json
 config/distraction_free_recipes-client.toml
+/.mixin.out

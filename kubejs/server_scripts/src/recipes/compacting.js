@@ -1,5 +1,9 @@
 ServerEvents.recipes(event => {
-    // Tuff
+   
+    const compacting = (input,output) => {
+        event.recipes.create.compacting(input,output)
+    }
+     // Tuff
     event.recipes.create.compacting(Item.of('minecraft:tuff', 1),[Item.of('minecraft:cobblestone', 12), Fluid.of('minecraft:water', 250)]);
     // Explosive Sugar
     event.recipes.create.compacting(Item.of('kubejs:explosive_sugar',4),[Item.of('minecraft:gunpowder',3),'minecraft:sugar']).id('chk:explosive_sugar_from_compacting');
@@ -9,4 +13,5 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting(Fluid.of('kubejs:lemon_juice',100),'lemoned:lemon');
     // Lunchbag
     event.recipes.create.compacting(Item.of('kubejs:lunchbag', 1), Item.of('create:cardboard', 2)).id('kubejs:lunchbag_from_compacting');
+    compacting(Fluid.of('kubejs:olive_oil',25),Item.of('croptopia:olive',2));
 })

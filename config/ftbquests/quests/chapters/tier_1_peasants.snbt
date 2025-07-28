@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tier_1_peasants"
-	group: ""
+	group: "74AF70249CFE8ABD"
 	icon: "minecraft:bread"
 	id: "14B4C22A87DD2B03"
 	images: [
@@ -11,8 +11,8 @@
 			image: "croptopia:block/pink_tree_flower"
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: -3.0d
+			x: 2.1117810760667766d
+			y: -2.6569039914536816d
 		}
 		{
 			height: 1.0d
@@ -22,8 +22,25 @@
 			x: -1.0d
 			y: 1.5d
 		}
+		{
+			height: 0.4d
+			image: "ftblibrary:icons/shield"
+			order: -1
+			rotation: -20.0d
+			width: 0.4d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 0.75d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.01569248556828029d
+			y: -6.292384814977964d
+		}
 	]
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,7 +51,9 @@
 				item: "miners_delight:copper_pot"
 				type: "item"
 			}]
-			subtitle: "Farmers require a Composter."
+			shape: "rsquare"
+			size: 1.6d
+			subtitle: "Farmers require a Composter and a fied with crops."
 			tasks: [{
 				icon: {
 					Count: 1
@@ -48,8 +67,8 @@
 				type: "custom"
 			}]
 			title: "Hire a Farmer"
-			x: 0.5d
-			y: -4.0d
+			x: 0.5136054421768748d
+			y: -4.399527672120826d
 		}
 		{
 			icon: {
@@ -60,6 +79,8 @@
 				}
 			}
 			id: "1331B73BCADCE4F2"
+			shape: "rsquare"
+			subtitle: "Fishermen need a Barrel"
 			tasks: [{
 				id: "0AE9D3EA139542F2"
 				title: "Hire a Fisherman"
@@ -69,11 +90,12 @@
 			y: -1.5d
 		}
 		{
-			icon: "minecraft:poppy"
+			icon: "minecraft:honeycomb"
 			id: "1D28BC1B31549450"
+			shape: "rsquare"
 			tasks: [{
 				id: "483BCC5CA4572980"
-				title: "Hire a Florist"
+				title: "Hire a Beekeeper"
 				type: "custom"
 			}]
 			x: 3.5d
@@ -81,6 +103,7 @@
 		}
 		{
 			id: "7A2E8B872A80243D"
+			shape: "rsquare"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -98,6 +121,7 @@
 		}
 		{
 			id: "002F0D721F8D501C"
+			shape: "rsquare"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -115,6 +139,8 @@
 		}
 		{
 			id: "379AC76E93E23779"
+			shape: "rsquare"
+			subtitle: "Shepherds need a Loom"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -131,186 +157,15 @@
 			y: -1.5d
 		}
 		{
-			id: "27F7079BD075B2DE"
-			tasks: [{
-				id: "0BC7CCA1352DD652"
-				item: "kubejs:diamond_farmer_lunchbag_2"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["27F7079BD075B2DE"]
-			id: "0BB8B788EB09FD66"
-			tasks: [{
-				id: "6261A2B26891BF55"
-				item: "kubejs:diamond_farmer_lunchbag_3"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0BB8B788EB09FD66"]
-			id: "02563F19D265AB26"
-			tasks: [{
-				id: "2EF922E2E4B9090A"
-				item: "kubejs:diamond_farmer_lunchbag_4"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["02563F19D265AB26"]
-			id: "609BF6298E7573E0"
-			tasks: [{
-				id: "36F3D72C780C68F9"
-				item: "kubejs:diamond_farmer_lunchbag_5"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["3D47AF321ED9B4FF"]
-			id: "0212C5824AF8B50E"
-			tasks: [{
-				id: "53F128F40E9BF20F"
-				item: "kubejs:diamond_florist_lunchbag_5"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["174446549EF23964"]
-			id: "3D47AF321ED9B4FF"
-			tasks: [{
-				id: "09FD4950F14A2D3B"
-				item: "kubejs:diamond_florist_lunchbag_4"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["74B15167A2BED4A0"]
-			id: "174446549EF23964"
-			tasks: [{
-				id: "5E964C05EBB148B5"
-				item: "kubejs:diamond_florist_lunchbag_3"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1D28BC1B31549450"]
-			id: "74B15167A2BED4A0"
-			tasks: [{
-				id: "7C1B2303E61EFBD6"
-				item: "kubejs:diamond_florist_lunchbag_2"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["002F0D721F8D501C"]
-			id: "35BBE791E74EA723"
-			tasks: [{
-				id: "28993BCF134814EE"
-				item: "kubejs:diamond_hunter_lunchbag_2"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["35BBE791E74EA723"]
-			id: "733B96B3D9C05A87"
-			tasks: [{
-				id: "28B7E561F681814E"
-				item: "kubejs:diamond_hunter_lunchbag_3"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["733B96B3D9C05A87"]
-			id: "2B96A1CB6871CD94"
-			tasks: [{
-				id: "21CF7B4557AA4208"
-				item: "kubejs:diamond_hunter_lunchbag_4"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2B96A1CB6871CD94"]
-			id: "16280A8A57ACCF13"
-			tasks: [{
-				id: "616B7C0D1CEB07BE"
-				item: "kubejs:diamond_hunter_lunchbag_5"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["379AC76E93E23779"]
-			id: "4F24C27939620243"
-			tasks: [{
-				id: "5B1CDFF18F8A3370"
-				item: "kubejs:diamond_shepherd_lunchbag_2"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4F24C27939620243"]
-			id: "68D32F68B2D2B2C1"
-			tasks: [{
-				id: "5536C75221390D69"
-				item: "kubejs:diamond_shepherd_lunchbag_3"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["68D32F68B2D2B2C1"]
-			id: "5BD80B612432F690"
-			tasks: [{
-				id: "054FE7F10046CDBA"
-				item: "kubejs:diamond_shepherd_lunchbag_4"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5BD80B612432F690"]
-			id: "503FD45B8F24E5A9"
-			tasks: [{
-				id: "04A89F028895B72B"
-				item: "kubejs:diamond_shepherd_lunchbag_5"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["188F5704688C12F8"]
+			dependencies: [
+				"188F5704688C12F8"
+				"1C77D3F34A627F63"
+			]
 			id: "12170421E7606CC6"
+			shape: "diamond"
 			tasks: [{
-				id: "2C1F6F04EB31227E"
-				item: "kubejs:farmer"
+				id: "40196B82FE461BB7"
+				item: "kubejs:farmer_seal"
 				type: "item"
 			}]
 			x: 0.5d
@@ -319,9 +174,10 @@
 		{
 			dependencies: ["1331B73BCADCE4F2"]
 			id: "0DA79A7B1FB47EFD"
+			shape: "diamond"
 			tasks: [{
-				id: "6970F93676DD8606"
-				item: "kubejs:fisherman"
+				id: "491482533C97A694"
+				item: "kubejs:fisherman_seal"
 				type: "item"
 			}]
 			x: -1.0d
@@ -330,9 +186,10 @@
 		{
 			dependencies: ["002F0D721F8D501C"]
 			id: "0CA1CD900D211A51"
+			shape: "diamond"
 			tasks: [{
-				id: "311D25D29B9BE927"
-				item: "kubejs:hunter"
+				id: "2358A03A14B68F0B"
+				item: "kubejs:hunter_seal"
 				type: "item"
 			}]
 			x: -1.0d
@@ -341,9 +198,10 @@
 		{
 			dependencies: ["379AC76E93E23779"]
 			id: "5E795596D641EB71"
+			shape: "diamond"
 			tasks: [{
-				id: "1E5D0E1C78483B2B"
-				item: "kubejs:shepherd"
+				id: "0D989DCAAA8645A0"
+				item: "kubejs:shepherd_seal"
 				type: "item"
 			}]
 			x: 2.0d
@@ -352,9 +210,10 @@
 		{
 			dependencies: ["1D28BC1B31549450"]
 			id: "22709430FFFC6846"
+			shape: "diamond"
 			tasks: [{
-				id: "4CCC91D33277EF63"
-				item: "kubejs:florist"
+				id: "1CF0140188E87283"
+				item: "kubejs:florist_seal"
 				type: "item"
 			}]
 			x: 2.0d
@@ -363,9 +222,10 @@
 		{
 			dependencies: ["7A2E8B872A80243D"]
 			id: "6EA7662A81B78DB7"
+			shape: "diamond"
 			tasks: [{
-				id: "1EE8DE5DCD5F42C3"
-				item: "kubejs:forester"
+				id: "40B74DB16A7916A2"
+				item: "kubejs:forester_seal"
 				type: "item"
 			}]
 			x: 0.5d
@@ -427,109 +287,323 @@
 			y: -0.7704081632653157d
 		}
 		{
-			dependencies: ["1331B73BCADCE4F2"]
-			id: "62FC80FB4112C1B4"
-			tasks: [{
-				id: "1FB453EB4C620BB7"
-				item: "kubejs:diamond_fisherman_lunchbag_2"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["62FC80FB4112C1B4"]
-			id: "3E599B5819F2811C"
-			tasks: [{
-				id: "6D6FBE695B8B8BA6"
-				item: "kubejs:diamond_fisherman_lunchbag_3"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3E599B5819F2811C"]
-			id: "497640232D502175"
-			tasks: [{
-				id: "3FDCC1B856DDB84B"
-				item: "kubejs:diamond_fisherman_lunchbag_4"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["497640232D502175"]
-			id: "0C096891249F4066"
-			tasks: [{
-				id: "58F9BC93CC4CA4E0"
-				item: "kubejs:diamond_fisherman_lunchbag_5"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["7A2E8B872A80243D"]
-			id: "007D0AE0A5915337"
-			tasks: [{
-				id: "7810ED9747661708"
-				item: "kubejs:diamond_forester_lunchbag_2"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["007D0AE0A5915337"]
-			id: "0291F2CF58560502"
-			tasks: [{
-				id: "4602081613CC5D12"
-				item: "kubejs:diamond_forester_lunchbag_3"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["0291F2CF58560502"]
-			id: "5AC95F3133180CF2"
-			tasks: [{
-				id: "74CFC22A2C91C47E"
-				item: "kubejs:diamond_forester_lunchbag_4"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5AC95F3133180CF2"]
-			id: "046B7013DFFE5084"
-			tasks: [{
-				id: "172FB00ACCF674BF"
-				item: "kubejs:diamond_forester_lunchbag_5"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.5d
-		}
-		{
 			dependencies: ["188F5704688C12F8"]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"You have made your first meals. How exciting. Anyway. Now that you are familiar with the activity that will occupy the rest of your days, it is time you get started with your production. &ePlease find this extremely generous subsidy&r to aid you in your task."
+			]
 			id: "09B32804B5F74915"
 			rewards: [{
-				id: "2A7586FE2DCA202E"
-				item: "miners_delight:copper_pot"
+				count: 8
+				id: "37FD1E738AD1B9F1"
+				item: "numismatics:cog"
 				type: "item"
 			}]
+			subtitle: "Getting into the thick of it"
 			tasks: [{
 				count: 4L
 				id: "2090DA5607C627B5"
 				item: { Count: 4, id: "brewery:potato_salad" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: 2.0136054421768748d
+			y: -4.399527672120826d
+		}
+		{
+			dependencies: ["09B32804B5F74915"]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"After deliberation, The Company has set up a&6 limited stock sale on Eggmart&r to help you get started on your automation. You are encouraged to show appreciation to The Company by increasing in productivity. "
+			]
+			icon: "kubejs:fred_eggs"
+			id: "150358B798FA51A0"
+			shape: "gear"
+			subtitle: "Not for free, though."
+			tasks: [{
+				id: "07E1C9D555E6F7A2"
+				title: "Automation Fast Tracking"
+				type: "checkmark"
+			}]
+			title: "You Deserve a little help"
+			x: 3.5136054421768748d
+			y: -4.399527672120826d
+		}
+		{
+			dependencies: ["5A0B3CE92CD85367"]
+			description: [
+				"Lunch Bags are Villager exclusive food."
+				"The number displayed in the top left is the level of the villager, and the icon represents the profession the Lunch Bag is for. Icons come in three version:"
+				"- &7Iron&r"
+				"- &6Gold&r"
+				"- &bDiamond&r"
+				"&7The Iron Lunch Bag is made out of a meal and a drink."
+				"&6The Gold has a dessert added to it,&r "
+				"and the &bDiamond has one or more extras inside.&r"
+				"&nEach new level is a new Lunch composition, but all meals and drinks are the same accross tiers of a same level&r."
+			]
+			icon: "kubejs:lunchbag"
+			id: "00E4887DB94DF673"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Food for Villagers"
+			tasks: [
+				{
+					id: "606F2417BC2CDABE"
+					title: "What are all these bags?"
+					type: "checkmark"
+				}
+				{
+					id: "6C1023E4F341BB31"
+					item: "kubejs:lunchbag"
+					type: "item"
+				}
+			]
+			x: 3.506462585034022d
+			y: -6.966364406814698d
+		}
+		{
+			dependencies: [
+				"62AE5D3BEFCFE94A"
+				"00E4887DB94DF673"
+				"17995C29CEA7A558"
+			]
+			description: [
+				"{image:kubejs:item/fredeggs width:20 height:20 align:center}"
+				""
+				"On behalf of The Company, allow me to warmly congratulate you on your first outstanding automation achievement. I have the sincere honor to announce that &ayou belong to the 96% of Franchisees who made it this far&r. Please accept this second &5Villager Capsule&r and proceed to the establishment of your &3Colony&r."
+			]
+			id: "579411A5A757E0A8"
+			rewards: [{
+				id: "2A7100DCAF8F333B"
+				item: "kubejs:villager_capsule"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 1.6d
+			subtitle: "Do not ask about the 4%"
+			tasks: [{
+				id: "75D288FB6847CE18"
+				item: "kubejs:farmer_lunchbag_3"
+				type: "item"
+			}]
+			title: "Starting a Colony"
+			x: 2.8136054421768746d
+			y: -8.799527672120826d
+		}
+		{
+			dependencies: [
+				"3544198B0FD87235"
+				"748688431CEE264F"
+				"004E6AF84FED4843"
+			]
+			id: "2E8B2249DF6D7D0C"
+			tasks: [{
+				id: "14AB3CB0632F68AF"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 5.513605442176875d
+			y: -7.399527672120826d
+		}
+		{
+			dependencies: [
+				"6BAEAB0432F98740"
+				"22E55751A8996008"
+			]
+			id: "62AE5D3BEFCFE94A"
+			tasks: [{
+				id: "5B10D062E4620C99"
+				item: "croptopia:water_bottle"
+				type: "item"
+			}]
+			x: 1.081040621376772d
+			y: -8.848949492130867d
+		}
+		{
+			dependencies: ["150358B798FA51A0"]
+			id: "5A0B3CE92CD85367"
+			tasks: [{
+				id: "65732CDDA19AB4D4"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: 3.5136054421768748d
+			y: -5.899527672120826d
+		}
+		{
+			dependencies: ["16B3E3ADF70B6379"]
+			id: "75EE827BF95DE504"
+			tasks: [{
+				id: "2233BEDBDA6A7387"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: 6.499208969084769d
+			y: -5.891414718821544d
+		}
+		{
+			dependencies: ["75EE827BF95DE504"]
+			id: "748688431CEE264F"
+			tasks: [{
+				id: "759A0F11B503A786"
+				item: "createfood:bread_slice"
+				type: "item"
+			}]
+			x: 7.513605442176875d
+			y: -6.399527672120826d
+		}
+		{
+			id: "004E6AF84FED4843"
+			tasks: [{
+				id: "56B31DB14AD9EAAE"
+				item: "croptopia:lettuce"
+				type: "item"
+			}]
+			x: 8.013605442176875d
+			y: -7.399527672120826d
+		}
+		{
+			id: "3544198B0FD87235"
+			tasks: [{
+				id: "12B4DA96A3F65C0A"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 7.513605442176875d
+			y: -8.399527672120826d
+		}
+		{
+			dependencies: ["2E8B2249DF6D7D0C"]
+			id: "17995C29CEA7A558"
+			tasks: [{
+				id: "6C5E1AEBAE58DC51"
+				item: "createfood:vegetable_sandwich_lettuce_tomato"
+				type: "item"
+			}]
+			x: 4.513605442176875d
+			y: -7.899527672120826d
+		}
+		{
+			id: "6BAEAB0432F98740"
+			tasks: [{
+				id: "1979101583CEB6D7"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.0715294022747415d
+			y: -7.357348784755601d
+		}
+		{
+			id: "22E55751A8996008"
+			tasks: [{
+				id: "09EF10B21E25BDFD"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 0.01360544217687476d
+			y: -7.899527672120826d
+		}
+		{
+			dependencies: ["188F5704688C12F8"]
+			description: [
+				"If you're feeling lost and the Company Brief Chapter was not enough to get you started, this quest is for you.&r"
+				"A lot of the quests on this chapter are item quests that serve as clues to help you in making a smooth progress through the pack's objectives. As a themed low tech modpack, C:HK's purpose lies in rewarding automation and problem solving through progressively harder items to produce. "
+				"{@pagebreak}"
+				"From Chapter 2 on, there will be less and less of these clues and you'll have to think of how to progress by your own means. If you're already experienced with the mods in this pack, this is probably irrelevant."
+				"{@pagebreak}"
+				"If you have any feedback, please reach out! All opinions are welcome."
+			]
+			icon: "create:brass_hand"
+			id: "1FF0258F613A028D"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "This is the only chapter I will hold your hand"
+			tasks: [{
+				id: "1BD9E29EF568B100"
+				type: "checkmark"
+			}]
+			title: "First Steps into C:HK"
+			x: 0.5156924855682803d
+			y: -5.863813386406541d
+		}
+		{
+			dependencies: ["5A0B3CE92CD85367"]
+			id: "16B3E3ADF70B6379"
+			tasks: [{
+				id: "2467673E7484D9BD"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 5.013605442176875d
+			y: -5.899527672120826d
+		}
+		{
+			dependencies: ["579411A5A757E0A8"]
+			id: "192064358A2AE624"
+			tasks: [{
+				id: "1BBF6824DF653627"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 2.801406771282565d
+			y: -10.367788345195173d
+		}
+		{
+			dependencies: ["192064358A2AE624"]
+			id: "47C14857E55641DE"
+			tasks: [{
+				id: "595C3E08DBDAB989"
+				item: "kubejs:farmer_lunchbag_4"
+				type: "item"
+			}]
+			x: 0.2180734379492435d
+			y: -10.340003862597019d
+		}
+		{
+			dependencies: ["47C14857E55641DE"]
+			id: "4DE533019B0032F8"
+			tasks: [{
+				id: "37A152A9D361DB45"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -1.2343075144317126d
+			y: -9.292384814977968d
+		}
+		{
+			dependencies: ["4DE533019B0032F8"]
+			id: "1C77D3F34A627F63"
+			tasks: [{
+				id: "463D97B72E65AA5C"
+				item: "kubejs:farmer_lunchbag_5"
+				type: "item"
+			}]
+			x: -1.2623685837971692d
+			y: -3.6686765615336867d
+		}
+		{
+			id: "6AD26CBAD34D6B55"
+			tasks: [{
+				id: "11A90B483D68B3F2"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Blaze Spawner"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["379AC76E93E23779"]
+			id: "472793D0CFAB87FC"
+			tasks: [{
+				id: "47648A8E9F344132"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
 		}
 	]
 	title: "&eTier 1: Peasants"
